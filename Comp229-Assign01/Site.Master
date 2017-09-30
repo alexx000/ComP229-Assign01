@@ -14,11 +14,11 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="~/Site.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
-    <div class="hero-background">
+    <div style="background-image: url('Assets/images/IMG_62801.jpg');">
+       
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -71,5 +71,6 @@
         </div>
     </form>
     </div>
+</div>
 </body>
 </html>
