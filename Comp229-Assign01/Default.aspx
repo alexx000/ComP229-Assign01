@@ -3,6 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="intro">
+        <img src="Assets/images/Technology.jpg" style="width:180px;height:100px"/>  <!–– link to the picture:https://toppersworld.com/wp-content/uploads/2014/12/Blue-Technology.jpg -->
         <h1>Yi Cheng (Alex) Xie</h1>
         <p class="lead">Welcome to My Protfolio!</p>
     </div>

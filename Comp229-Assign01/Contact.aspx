@@ -2,7 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div>
-    <h2><%: Title %></h2>
     <h3>YI Cheng (Alex) Xie.</h3>
     <address>
         Centennial College, Progress Campus<br />
@@ -14,14 +13,18 @@
     <address>
         <strong>Email:</strong>   <a href="mailto:alexx031494@gmail.com">Email@example.com</a>
     </address>
-
+    <div>
+        <h2>Keep Connected</h2>
+        <p>
+            <a href="https://www.facebook.com/yicheng.x.14" target="_blank"><img src="http://www.niftybuttons.com/scribble/facebook.png" border="0" margin="1px"></a><a href="https://twitter.com/alexx031494" target="_blank"><img src="http://www.niftybuttons.com/scribble/twitter.png" border="0" margin="1px"></a><a href="https://www.instagram.com/alexxie4/" target="_blank"><img src="http://www.niftybuttons.com/scribble/linkedin.png" border="0" margin="1px"></a>
+        </p>
+    </div>
     <h3>
         <b>Please Sumbit Your Info Here:</b>
     </h3>
     </div>
-
     <div>
-    <form name="contactForm" method="post"  onsubmit="return form()">
+    <form name="contactForm" action="javascripe:form();" >
         <table>
             <tr>
                 <td><strong>First Name:</strong></td>

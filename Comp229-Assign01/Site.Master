@@ -14,10 +14,11 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link href="~/Site.css" rel="stylesheet" type="text/css" />
 
 </head>
-<body style="background-image:url(Assets/images/IMG_62801.jpg);">
+<body>
+    <div class="hero-background">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -65,10 +66,10 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %></p>
+                <p>&copy; <%: DateTime.Now.Year %> Yi Cheng Xie, 300-820-456</p>
             </footer>
         </div>
-
     </form>
+    </div>
 </body>
 </html>

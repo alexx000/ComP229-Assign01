@@ -1,5 +1,5 @@
 ﻿function form()
 {
-    location.href = "Default.aspx"
-    return true
+    location.href = "Default.aspx";
+    return true;
 }
